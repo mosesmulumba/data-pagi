@@ -1,0 +1,58 @@
+*{
+  justify-items: center;
+  box-sizing: border-box;
+  margin: auto;
+}
+.pagination{
+  display: flex;
+  /* margin: 15px auto; */
+  list-style: none;
+  outline: none;
+}
+.pagination , .active > a {
+  /* background-color: #47ccde; */
+  border-color: #47ccde;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 24px;
+}
+.pagination , li {
+  /* border: 1px solid #010506; */
+  padding: 5px 5px;
+  outline: none;
+  cursor: pointer;
+  justify-items: space-evenly;
+  font-size: 18px;
+}
+.pages_pagination{
+  border: #000;
+}
+.paginator{
+  display: flex;
+  padding: 25px;
+  list-style: none;
+  outline: none;
+  border-radius: 10px;
+  width: 50%;
+  align-items: center;
+  justify-items: center;
+  flex-direction: center;
+  background-color: #47ccde;
+
+}
+.next{
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+}
+.prev{
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
