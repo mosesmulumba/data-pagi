@@ -19,9 +19,9 @@ export default function App() {
 
       const slice = data.slice(offset, offset + perPage);
       const postData = slice.map((data) => (
-        <div key={data.id}>
+        <div key={data.id} className="data">
           <p>{data.title}</p>
-          <img src={data.thumnailUrl} alt="" />
+          <img src={data.thumbnailUrl} alt="" width={40} height={40} />
         </div>
       ));
 
